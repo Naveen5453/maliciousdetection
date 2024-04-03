@@ -1,4 +1,4 @@
-# phishing-website-detection-content-based
+# malicious-detection
 This is an End-to-End Machine Learning Project which focuses on phishing websites to classify phishing and legitimate ones. Particularly, I focused on content-based features like html tag based features. You can find feature extraction, data collection, preparation process here. Also, building ML models, evaluating them are available here.
 
 
@@ -25,8 +25,8 @@ This is an End-to-End Machine Learning Project which focuses on phishing website
   - Random Forest
   - AdaBoost
 - You can obtain the confusion matrix, and performance measures: accuracy, precision, recall
-- Finally, I visualized the performance measures for all models.
-  - Naive Bayes is the best for my case.
+- Finally,
+  - random forest is the best for my case.
 
 ## important notes
 - features are content-based and need BeautifulSoup module's methods and fields etc So, you should install it.
